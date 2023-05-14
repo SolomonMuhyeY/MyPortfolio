@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>| My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+  <div class="main-container">
+    <header class="header">
+      <ul class="nav">
+        <li id="owner">Solomon Muhye</li>
+        <li>
+          <div class="outer__circle">
+            <div class="inner__circle">SM</div>
+          </div>
+        </li>
+        <li><i class="fa-solid fa-house"></i><a href="#home">
+            Home</a></li>
+        <li><button style="background:none; color:inherit; border:none; font-size:x-small;" id="openPopup">About
+            Me</button> </li>
+        <li><a href="#my__work"> Work</a></li>
+        <li><i class="fa-solid fa-envelope"></i><a href="mailto:solomonmuhye12@gmail.com">Contact Me</a></li>
+      </ul>
+    </header>
+    <section id="home" class="main-section">
+      <div class="social_links">
+        <ul>
+          <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+          <li><a href="https://github.com/SolomonMuhyeY" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-discord"></i></a></li>
+          <li><a href="mailto:solomonmuhye12@gmail.com"><i class="fa-solid fa-envelope"></i></a></li>
+        </ul>
+      </div>
+      <section class="slider my__personal__info">
+        <div class="slide slide__one">
+          <div class="work__related__images__container">
+            <img class="my__img" src="./img/my-img.png" alt="my image">
+          </div>
+          <article id="my__bio" class="some__work__info">
+            <h2 style="font-family: cursive;">Hi,</h2>
+            <h2 style="font-family: cursive;">I am Solomon,</h2>
+            <h3>I am Currently Working On web Development</h3>
+            <b style="margin:auto 3rem; font-style:italic; color:#333; text-shadow:2px 2px 3px #eee;">HTML | CSS |
+              JavaScript</b>
+            <p>I am Solomon Muhye, a Software Enginnering student at Bahir Dar University, BIT.
+              I am currently working on to be a full stack developer
+            </p>
+            <button class="btn"><a href="mailto:solomonmuhye12@gmail.com">Hire Me</a> </button>
+            <button class="btn"><a href="#my__work"> Show Project</a></button>
+          </article>
+        </div>
+        <div style="display:none" class="slide slide__two">
+          <div class="work__related__images__container">
+            <img class="skills__img" src="./img/skills.jpg" alt="my image">
+          </div>
+          <article class="some__work__info">
+            <h2 style="text-align: center; margin-right:4rem;">My Skills</h2>
+            <ol class="my__skills">
+              <li class="skill__list">HTML</li>
+              <li class="skill__list">CSS</li>
+              <li class="skill__list">Tailwind CSS</li>
+              <li class="skill__list">JavaScript</li>
+              <li class="skill__list">React JS</li>
+              <li class="skill__list">Git/Github</li>
+              <li class="skill__list">Figma</li>
+              <li class="skill__list">Java</li>
+            </ol>
+            <p>As a software engineer, I excel in HTML, CSS, Tailwind CSS, JavaScript, React JS, Git/GitHub, and Figma.
+              With these skills, I create visually appealing and responsive web pages, develop interactive components
+              using JavaScript and React JS, and utilize Git/GitHub for version control. Additionally, I use Figma for
+              design and prototyping. I am eager to learn backend development with technologies like Node.js,
+              Express.js, and databases like MongoDB/SQL. I also aim to explore Flutter for cross-platform mobile app
+              development. By expanding my skills in these areas, I strive to deliver comprehensive solutions across
+              multiple platforms.
+            </p>
+          </article>
+        </div>
+        <div class="dots">
+          <button class="dot left__dot"></button>
+          <button class="dot right__dot"></button>
+        </div>
+      </section>
+    </section>
+    <br><br>
+    <hr>
+    <!-- my Portfolio -->
+    <section id="my__work" class="some__of__my__works">
+      <h1 id="portfolio">PORTFOLIO</h1>
+      <p class="work__intro">
+        <b>Some of my project Samples</b><br>
+        During my software engineering career, I have worked on a variety of projects that showcase my skills and
+        knowledge. One notable project is a school project where I applied JavaScript data structures and their methods.
+        Not only did I implement these data structures effectively, but I also ensured an intuitive and user-friendly
+        interface.
+        Additionally, I have completed many projects as part of my coursework.From this the first project involved
+        creating a JavaScript application that emulates common array methods. This application not only demonstrates my
+        understanding of these methods but also incorporates a visually appealing graphical user interface, enhancing
+        the overall user experience.
+        The second project I undertook was a React application focused on utilizing APIs. I employed the useEffect hook
+        to manage external side effects seamlessly. This project showcases my ability to work with external data sources
+        and effectively integrate them into a web application.
+        Overall, these projects reflect my proficiency in various programming concepts and technologies, such as
+        JavaScript, CSS, and React. They demonstrate my ability to implement robust functionalities, prioritize user
+        experience, and effectively utilize external resources.
+      </p>
+      <button class="read__more__btn">Read More</button>
+      <div class="project__btn__container">
+        <button class="btn project__display__btn active__btn">Sample Project One</button>
+        <button class="btn project__display__btn">Sample Project Two</button>
+        <button class="btn project__display__btn">Sample Project Three</button>
+      </div>
+      <div class="project__container">
+        <div class="my__projects show__project">
+          <div class="project__image__container">
+            <div class="my__project__img__box show">
+              <img class="img" src="./img/e-commerce-1.jpg" alt="my-school-project">
+            </div>
+            <div class="my__project__img__box ">
+              <img class="img" src="./img/e-commerce-2.jpg" alt="my-school-project">
+            </div>
+            <div class="my__project__img__box ">
+              <img class="img" src="./img/e-commerce-3.jpg" alt="my-school-project">
+            </div>
+          </div>
+          <div class="project__slider__dots">
+            <button class="project__dot active"></button>
+            <button class="project__dot "></button>
+            <button class="project__dot "></button>
+          </div>
+          <button class="btn show__detail">Project Details</button>
+          <div class="project__info project__1">
+            <b>This is a school project that for Some online business website </b>
+            <p>As part of a school project, I worked on creating an e-commerce website that sells sustainable and
+              eco-friendly products. My team conducted market research, designed the website's user interface and user
+              experience, and included features such as product filtering and a blog section. This project allowed me to
+              develop my skills in web design,web development, and project management.</p>
+
+          </div>
+        </div>
+        <div class="my__projects">
+          <div class="project__image__container">
+            <div class="my__project__img__box show">
+              <img class="img" src="./img/bankist-1.jpg" alt="my-school-project">
+            </div>
+            <div class="my__project__img__box ">
+              <img class="img" src="./img/bankist-2.jpg" alt="my-school-project">
+            </div>
+            <div class="my__project__img__box ">
+              <img class="img" src="./img/bankist-3.jpg" alt="my-school-project">
+            </div>
+          </div>
+          <button class="btn show__detail">Project Details</button>
+          <div class="project__info project__2">
+            <h2>Bank Transaction Management App</h2>
+            <b>This is a bank transaction app that i created after taking some comprehensive learning of
+              <b>JavaScript</b> </b>
+            <p>This app has best UI as well as the application tries to apply most of the array methods in react. This
+              project is one of my complete and finest project that let me grab detail understanding about JavaScript,
+              specially methods in arrays.</p>
+
+          </div>
+        </div>
+        <div class="my__projects">
+          <div class="project__image__container">
+            <div class="my__project__img__box show">
+              <img class="img" src="./img/react-img-1.jpg" alt="my-school-project">
+            </div>
+            <div class="my__project__img__box ">
+              <img class="img" src="./img/react-img-1.jpg" alt="my-school-project">
+            </div>
+            <div class="my__project__img__box ">
+              <img class="img" src="./img/react-img-1.jpg  " alt="my-school-project">
+            </div>
+          </div>
+          <button class="btn show__detail">Show Details</button>
+          <div class="project__info project__3">
+            <h2>Meme Generator Using React js</h2>
+            <b>This is a meme generator app </b>
+            <p>This meme generator app fetches some of the most used meme template images. And the meme generator app
+              let you write what ever line You want. This project mainly focuses on How can we use useEffect in react to
+              handle some side effects like fetching dtata from some external APIs </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br><br>
+    <hr>
+    <footer>
+      <ul>
+        <li><i class="fa-solid fa-house"></i><a href="#home">
+            Home</a></li>
+        <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+        <li><a href="https://github.com/SolomonMuhyeY" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+        <li><a href="#"><i class="fa-brands fa-discord"></i></a></li>
+        <li><a href="mailto:solomonmuhye12@gmail.com"><i class="fa-solid fa-envelope"></i></a></li>
+      </ul>
+      <p>&copy; 2023 Solomon Muhye Yimam</p>
+    </footer>
+    <!-- pop container -->
+    <div id="popupContainer">
+      <div id="popupContent">
+        <p>
+          My name is Solomon Muhye, and I was born on December 20, 1993 E.C, in Wegdie, S/wello. I attended Wegdie
+          Primary School for my primary education, followed by Wegdie Junior School for my secondary education. I then
+          continued my studies at Wegdie Secondary and Preparatory School. With a commendable score, I had the privilege
+          to join Bahir Dar University, where I am currently pursuing a degree in Software Engineering. The field of
+          Software Engineering has opened my eyes to a multitude of possibilities that I had never experienced before in
+          my country. I am truly grateful to be a part of the Software Engineering community and I aspire to make
+          significant contributions not only to those who have supported me along the way but also to my beloved
+          country. I feel truly blessed to be a software engineer, and I am excited about the positive impact I can make
+          in the future.
+        </p>
+        <button id="closePopup">Close</button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
