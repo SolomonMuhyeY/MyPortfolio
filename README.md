@@ -1,2 +1,2 @@
 # MyPortfolio
-this is my first trial to create some portfolio
+this is my first trial to create my portfolio
